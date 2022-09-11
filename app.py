@@ -22,7 +22,8 @@ model = torch.hub.load(
 )
 face2paint = torch.hub.load(
     'AK391/animegan2-pytorch:main', 'face2paint', 
-    size=512, device="cuda",side_by_side=False
+    size=512, #device="cuda",
+    side_by_side=False
 )
 
 def inference(img):
