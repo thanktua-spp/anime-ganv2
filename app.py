@@ -1,5 +1,6 @@
 from PIL import Image
 import torch
+import torchvision
 import gradio
 
 Instructuction = "Select a Unique Portrait Image of yourself"
