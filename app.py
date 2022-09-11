@@ -32,5 +32,5 @@ gradio.Interface(inference,
                  inputs=gradio.Image(type='pil'),
                  outputs=gradio.Image(type='pil'),
                  Instructuction=Instructuction, title=title, description=description, article=article,
-                 examples=['/content/Upload Xty.png',
-                           '/content/Upload Tg.png']).launch()
+                 examples=['/Upload Xty.png',
+                           '/Upload Tg.png']).launch()
