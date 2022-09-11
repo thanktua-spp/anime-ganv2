@@ -17,7 +17,7 @@ model = torch.hub.load(
     "AK391/animegan2-pytorch:main",
     "generator",
     pretrained=True,
-    device="cuda",
+    #device="cuda",
     progress=False
 )
 face2paint = torch.hub.load(
